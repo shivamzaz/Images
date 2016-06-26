@@ -1,0 +1,1 @@
+gets().split(" ").inject(:+).split("").to_i.inject(:+)
