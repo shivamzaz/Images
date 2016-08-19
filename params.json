@@ -1,0 +1,6 @@
+{
+  "name": "Images",
+  "tagline": "codes_images",
+  "body": "            Nested loops using recursion in python\r\n\r\n##coder @ shivamzaz#demo in c++ in simple loops\r\n'''for(i=0;i<n;i++){\r\n    for(j=0;j<nj++){\r\n        cout<<n<<endl;\r\n    }\r\n}'''\r\ndef s_s(n):\r\n    i=0\r\n    s_f(i,n)\r\ndef s_f(i,n):\r\n    if(i<n):    \r\n        j=0\r\n        s_g(i,j,n)\r\n        s_f(i+1,n)\r\ndef s_g(i,j,n):\r\n    if(j<n):\r\n        print i,j\r\n        s_g(i,j+1,n)\r\ns_s(4)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
